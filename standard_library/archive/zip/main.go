@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Open a zip archive for reading.
-	r, err := zip.OpenReader("./testdata/readme.zip")
+	r, err := zip.OpenReader("README.md.zip")
 	if err != nil {
 		log.Fatal(err)
 	}
